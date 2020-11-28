@@ -1,0 +1,8 @@
+aiohttp
+yarl
+telethon==1.14.0
+cryptg
+pycrypto
+apscheduler
+requests
+hjson

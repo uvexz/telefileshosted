@@ -1,0 +1,49 @@
+{
+  "name": "Telegram Image Served by Web",
+  "description": "web形式下载telegram图片",
+  "keywords": [
+    "Telethon",
+    "free",
+    "plugin",
+    "Image",
+    "productivity",
+    "Telegram api"
+  ],
+  "repository": "https://github.com/kuyagic/tgfilestream",
+  "success_url": "https://github.com/kuyagic/tgfilestream",
+  "website": "https://github.com/kuyagic/tgfilestream",
+  "env": {
+    "ADMIN_ID": {
+      "description": "管理员ID,不受任何限制私聊",
+      "value": ""
+    },
+    "WEB_AP_KEY": {
+      "description": "Web CURL 管理删除图片用认证Key,需要修改掉默认值",
+      "value": "326e6939-bcab-4dc0-86f4-a414b22cebbc"
+    },
+    "ALLOW_USER_IDS": {
+      "description": "允许bot互动的群组,频道和用户ID 逗号分隔",
+      "value": ""
+    },
+    "LINK_PREFIX": {
+      "description": "下载链接前缀一般是 <name>.herokuapp.com ",
+      "value": ""
+    },
+    "MAX_FILE_SIZE": {
+      "description": "文件最大尺寸,单位 字节",
+      "value": ""
+    },
+    "TG_API_ID": {
+      "description": "访问 my.telegram.org 获取此数据",
+      "value": ""
+    },
+    "TG_API_HASH": {
+      "description": "访问 my.telegram.org 获取此数据",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "机器人ID, 从 @botfather 创建并获取",
+      "value": ""
+    }
+  }
+}
